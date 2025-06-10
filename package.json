@@ -24,12 +24,14 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@google/genai": "^1.4.0",
     "@mui/icons-material": "^5.15.6",
     "@mui/material": "^5.15.6",
     "@types/react-router-dom": "^5.3.3",
     "@vercel/postgres": "^0.10.0",
     "bcryptjs": "^2.4.3",
     "firebase": "^11.9.0",
+    "jose": "^6.0.11",
     "jsonwebtoken": "^9.0.2",
     "next": "^14.2.29",
     "next-auth": "^4.24.5",
@@ -38,7 +40,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.6.2",
     "stylis": "^4.3.1",
-    "stylis-plugin-rtl": "^2.1.1"
+    "stylis-plugin-rtl": "^2.1.1",
+    "zod": "^3.25.57"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^5.11.2",
